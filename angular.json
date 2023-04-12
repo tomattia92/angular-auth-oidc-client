@@ -3,37 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-auth-oidc-client": {
+    "angular-auth-oidc-client-t4u": {
       "projectType": "library",
-      "root": "projects/angular-auth-oidc-client",
-      "sourceRoot": "projects/angular-auth-oidc-client/src",
+      "root": "projects/angular-auth-oidc-client-t4u",
+      "sourceRoot": "projects/angular-auth-oidc-client-t4u/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/angular-auth-oidc-client/tsconfig.lib.json",
-            "project": "projects/angular-auth-oidc-client/ng-package.json"
+            "tsConfig": "projects/angular-auth-oidc-client-t4u/tsconfig.lib.json",
+            "project": "projects/angular-auth-oidc-client-t4u/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-auth-oidc-client/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-auth-oidc-client-t4u/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-auth-oidc-client/src/test.ts",
-            "tsConfig": "projects/angular-auth-oidc-client/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-auth-oidc-client/karma.conf.js",
+            "main": "projects/angular-auth-oidc-client-t4u/src/test.ts",
+            "tsConfig": "projects/angular-auth-oidc-client-t4u/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-auth-oidc-client-t4u/karma.conf.js",
             "codeCoverageExclude": ["/**/*mock*.ts"]
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": ["projects/angular-auth-oidc-client/**/*.ts", "projects/angular-auth-oidc-client/**/*.html"]
+            "lintFilePatterns": ["projects/angular-auth-oidc-client-t4u/**/*.ts", "projects/angular-auth-oidc-client-t4u/**/*.html"]
           }
         }
       }
@@ -1319,5 +1319,5 @@
   "cli": {
     "analytics": "b91d4847-f3d9-4b77-91da-efc9e14ed237"
   },
-  "defaultProject": "angular-auth-oidc-client"
+  "defaultProject": "angular-auth-oidc-client-t4u"
 }

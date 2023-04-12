@@ -1,5 +1,5 @@
 import { APP_INITIALIZER, NgModule } from '@angular/core';
-import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client';
+import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client-t4u';
 
 export const configureAuth = (oidcConfigService: OidcConfigService) => {
   return () => {

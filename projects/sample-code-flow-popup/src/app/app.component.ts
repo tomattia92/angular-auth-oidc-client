@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OidcSecurityService, PublicConfiguration } from 'angular-auth-oidc-client';
+import { OidcSecurityService, PublicConfiguration } from 'angular-auth-oidc-client-t4u';
 import { Observable } from 'rxjs';
 
 @Component({

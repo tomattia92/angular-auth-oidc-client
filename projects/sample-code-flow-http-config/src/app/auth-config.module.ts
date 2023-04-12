@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
-import { AuthModule, OidcConfigService, OidcSecurityService } from 'angular-auth-oidc-client';
+import { AuthModule, OidcConfigService, OidcSecurityService } from 'angular-auth-oidc-client-t4u';
 import { map, switchMap } from 'rxjs/operators';
 
 export function configureAuth(oidcConfigService: OidcConfigService, httpClient: HttpClient) {

@@ -2,8 +2,8 @@
 
 ## Examples using:
 
-https://github.com/damienbod/AspNetCoreAngularSignalRSecurity
+https://github.com/tomattia92/AspNetCoreAngularSignalRSecurity
 
 ## Using src code directly:
 
-https://github.com/damienbod/AspNet5IdentityServerAngularImplicitFlow
+https://github.com/tomattia92/AspNet5IdentityServerAngularImplicitFlow

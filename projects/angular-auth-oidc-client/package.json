@@ -1,5 +1,5 @@
 {
-  "name": "angular-auth-oidc-client",
+  "name": "angular-auth-oidc-client-t4u",
   "author": "Damien Bowden & Fabian Gosebrink",
   "peerDependencies": {
     "rxjs": ">= 6.0.0",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/damienbod/angular-auth-oidc-client.git"
+    "url": "https://github.com/tomattia92/angular-auth-oidc-client-t4u.git"
   },
   "bugs": {
-    "url": "https://github.com/damienbod/angular-auth-oidc-client/issues"
+    "url": "https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues"
   },
-  "homepage": "https://github.com/damienbod/angular-auth-oidc-client",
+  "homepage": "https://github.com/tomattia92/angular-auth-oidc-client-t4u",
   "keywords": [
     "angular",
     "oidc",

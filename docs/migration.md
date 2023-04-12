@@ -66,7 +66,7 @@ export class AppModule {
 ```typescript
 // imports
 import { NgModule, APP_INITIALIZER } from '@angular/core';
-import { AuthModule, OidcConfigService } from 'angular-auth-oidc-client';
+import { AuthModule, OidcConfigService } from 'angular-auth-oidc-client-t4u';
 
 export function configureAuth(oidcConfigService: OidcConfigService) {
   return () =>
@@ -111,7 +111,7 @@ export class AppModule {}
 ```typescript
 // imports
 import { NgModule, APP_INITIALIZER } from '@angular/core';
-import { AuthModule, OidcConfigService, ConfigResult, OpenIdConfiguration } from 'angular-auth-oidc-client';
+import { AuthModule, OidcConfigService, ConfigResult, OpenIdConfiguration } from 'angular-auth-oidc-client-t4u';
 
 export function loadConfig(oidcConfigService: OidcConfigService) {
   return () => oidcConfigService.load(`${window.location.origin}/api/ClientAppSettings`);
@@ -174,7 +174,7 @@ export class AppModule {
 ```typescript
 import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { AuthModule, OidcConfigService } from 'angular-auth-oidc-client';
+import { AuthModule, OidcConfigService } from 'angular-auth-oidc-client-t4u';
 import { map, switchMap } from 'rxjs/operators';
 
 export function configureAuth(oidcConfigService: OidcConfigService, httpClient: HttpClient) {
@@ -234,7 +234,7 @@ export class AppModule {}
 ```typescript
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { OidcSecurityService } from 'angular-auth-oidc-client';
+import { OidcSecurityService } from 'angular-auth-oidc-client-t4u';
 
 @Component({
   selector: 'app-component',
@@ -279,7 +279,7 @@ export class AppComponent implements OnInit, OnDestroy {
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { OidcSecurityService } from 'angular-auth-oidc-client';
+import { OidcSecurityService } from 'angular-auth-oidc-client-t4u';
 
 @Component({
   selector: 'app-component',

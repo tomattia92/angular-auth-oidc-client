@@ -1,6 +1,6 @@
 ﻿import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { OidcSecurityService } from 'angular-auth-oidc-client';
+import { OidcSecurityService } from 'angular-auth-oidc-client-t4u';
 
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { OpenIdConfiguration } from '../angular-auth-oidc-client';
+import { OpenIdConfiguration } from '../angular-auth-oidc-client-t4u';
 import { LoggerService } from '../logging/logger.service';
 import { Level, RuleValidationResult } from './rule';
 import { allRules } from './rules';

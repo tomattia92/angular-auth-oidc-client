@@ -7,7 +7,7 @@ You can either use the schematics with `ng add` or install the lib and adding th
 You can use the schematics and `ng add` the library.
 
 ```
-ng add angular-auth-oidc-client
+ng add angular-auth-oidc-client-t4u
 ```
 
 And answer the questions. A module will be created which encapsulates your configuration.
@@ -17,13 +17,13 @@ And answer the questions. A module will be created which encapsulates your confi
 Navigate to the level of your `package.json` and type
 
 ```typescript
- npm install angular-auth-oidc-client
+ npm install angular-auth-oidc-client-t4u
 ```
 
 or with yarn
 
 ```typescript
- yarn add angular-auth-oidc-client
+ yarn add angular-auth-oidc-client-t4u
 ```
 
 After installing the library you can get started with the lib like below.
@@ -35,7 +35,7 @@ Import the module and services in your module.
 ```typescript
 import { HttpClientModule } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
-import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client';
+import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client-t4u';
 // ...
 
 export function configureAuth(oidcConfigService: OidcConfigService) {

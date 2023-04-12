@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EventTypes, OidcSecurityService, PublicEventsService } from 'angular-auth-oidc-client';
+import { EventTypes, OidcSecurityService, PublicEventsService } from 'angular-auth-oidc-client-t4u';
 import { filter } from 'rxjs/operators';
 
 @Component({

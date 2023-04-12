@@ -18,7 +18,10 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "angular-auth-oidc-client": ["dist/angular-auth-oidc-client/angular-auth-oidc-client", "dist/angular-auth-oidc-client"]
+      "angular-auth-oidc-client-t4u": [
+        "dist/angular-auth-oidc-client-t4u/angular-auth-oidc-client-t4u",
+        "dist/angular-auth-oidc-client-t4u"
+      ]
     }
   },
   "angularCompilerOptions": {

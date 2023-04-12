@@ -1,121 +1,120 @@
 ## Angular Lib for OpenID Connect/OAuth2 Changelog
 
-
 ### 2021-06-12 Version 11.6.12
 
--  Modificata da Mattia Selvaggio
+- Modificata da Mattia Selvaggio
 
 ### 2021-06-12 Version 11.6.11
 
 - Silent renew does not always start
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1128)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1128)
 
 ### 2021-05-28 Version 11.6.10
 
 - AutoLoginGuard appears to cause some sort of infinite loop.
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1102)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1102)
 
 ### 2021-05-16 Version 11.6.9
 
 - Support Custom Params for EndSession and RefreshTokens Renew
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1093)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1093)
 - Added Auth0 example
 - Bugfix: the "use" attr on the jwks key is optional if only one key is present
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1089)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1089)
 
 ### 2021-05-04 Version 11.6.8
 
 - bugfix incorrect storage for silent renew, requires Json object
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1086)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1086)
 
 ### 2021-05-01 Version 11.6.7
 
 - Enable handling users closing login popup
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1058)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1058)
 - Renamed all occurrences of "Persistance" to "Persistence"
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1064)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1064)
 - Document public facing API
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1073)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1073)
 - Exported and moved authOptions
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1076)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1076)
 - Fix(randomService): fix misuse of Uint8Array
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1078)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1078)
 - hooking into the zone again to avoid outside ngzone messages and throw event only when value change
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1082)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1082)
 - fixed json stringify objects and storage
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1083)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1083)
 
 ### 2021-04-18 Version 11.6.6
 
 - fix: use navigateByUrl to fix url params encoding
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1051)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1051)
 - Store singing keys as fallback
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1047)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1047)
 - Exposing popup options
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1045)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1045)
 
 ### 2021-04-11 Version 11.6.5
 
 - Silent renew with refresh tokens - handle no connection use case
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1040)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1040)
 - Added Guard CanLoad interface
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1038)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1038)
 
 ### 2021-03-13 Version 11.6.4
 
 - Improve AutoLoginGuard
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1015)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1015)
 - Add support custom params during token exchange
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1010)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1010)
 - Clean up user data when autoUserInfo is false => from id_token
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1014)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1014)
 
 ### 2021-03-12 Version 11.6.3
 
 - Inconsistent behavior of OidcSecurityService.userData$ Observable, if autoUserinfo is false
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1008)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1008)
 - CheckSessionService keeps polling after logoffLocal() is invoked
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1009)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1009)
 
 ### 2021-03-05 Version 11.6.2
 
 - Bugfix: Check session does not work when autoUserinfo is set to false in code flow with PKCE
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/990), [ISSUE](https://github.com/damienbod/angular-auth-oidc-client/issues/864)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/990), [ISSUE](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/864)
 - Bugfix: checkAuth returning null when href target="\_blank"
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/991), [ISSUE](https://github.com/damienbod/angular-auth-oidc-client/issues/983)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/991), [ISSUE](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/983)
 - Support silent renew with refresh tokens without scope offline access
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/998)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/998)
 - Bugfix: Refresh response without an id token breaks mechanism
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/1000)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/1000)
 
 ### 2021-02-27 Version 11.6.1
 
 - Added AutoLoginGuard
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/987)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/987)
 - Updated Azure AD, Azure B2C templates to prompt for select_account (problem with multiple accounts)
 
 ### 2021-02-24 Version 11.6.0
 
 - Added support for OAuth Pushed authorisation requests (PAR)
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/978)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/978)
 - Added Pushed authorisation requests (PAR) example
 - Added OAuth Pushed authorisation requests (PAR) template using schematics
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/979)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/979)
 - unsubscribe receivedUrl$ prevents multiple "/token" request
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/981)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/981)
 
 ### 2021-02-13 Version 11.5.1
 
 - ApplicationRef.isStable is always false when using this package
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/965)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/965)
 
 ### 2021-02-02 Version 11.5.0
 
 - Added support for authentication using a popup
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/960)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/960)
 - Added popup sample
 - Added Title to Silent Renew IFrame
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/958)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/958)
 
 ### 2021-02-02 Version 11.4.5
 
@@ -124,123 +123,123 @@
 ### 2021-02-02 Version 11.4.4
 
 - Support aud arrays which are not ordered in id_token validation of refresh token process
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/950)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/950)
 - Fixed Bug were Dynamic Custom Request Parameters are forgotten after first login or forceRefreshSession when doing a silent renew/refresh
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/947)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/947)
 
 ### 2021-01-19 Version 11.4.3
 
 - Added ability to use Custom Parameters when calling ForceRefreshSession
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/941)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/941)
 - Missing RefreshToken causes erroneous token request
-  - [issue](https://github.com/damienbod/angular-auth-oidc-client/pull/909)
+  - [issue](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/909)
 - Bug. App fully hang during silent renew
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/942)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/942)
 
 ### 2021-01-10 Version 11.4.2
 
 - Added checksession null checks
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/937)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/937)
 
 ### 2021-01-10 Version 11.4.1
 
 - Added event to throw when config could not be loaded
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/929)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/929)
 - Check session fails if sts server has a different origin than the check_session_iframe
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/933)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/933)
 - Fix http config example and templates for HTTP config load
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/935)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/935)
 
 ### 2021-01-03 Version 11.4.0
 
 - Adding schematics
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/876)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/876)
 - Provided interceptor out of the lib
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/924)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/924)
 
 ### 2020-12-18 Version 11.3.0
 
 - Update to Angular 11, fix tslib warnings
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/915)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/915)
 - Use window object safely by injecting document
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/917)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/917)
 
 ### 2020-11-20 Version 11.2.4
 
 - Do not clear session state when refreshing session with refresh tokens
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/905)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/905)
 
 ### 2020-11-20 Version 11.2.3
 
 - Added config tokenRefreshInSeconds which controls the time interval to run the startTokenValidationPeriodically
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/900)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/900)
 
 ### 2020-11-13 Version 11.2.2
 
 - Multiple tabs don't receive any event when session state becomes blank
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/896)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/896)
 - Fixed issue with browser history on silent renew redirect to IS
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/895)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/895)
 - UTC time fix
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/888)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/888)
 - Small fixes of docs and naming
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/887)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/887)
 
 ### 2020-10-23 Version 11.2.1
 
 - renewUserInfoAfterTokenRenew to OpenIdConfiguration
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/856)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/856)
 - Remove items from local storage instead of writing empty string values
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/872)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/872)
 
 ### 2020-08-08 Version 11.2.0
 
 - added possibility to pass url to check from the outside (for example to use in electron cases)
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/840)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/840)
 
 ### 2020-07-04 Version 11.1.4
 
 - checkAuthIncludingServer cannot complete without credentials
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/811) // Fixes [#779](https://github.com/damienbod/angular-auth-oidc-client/issues/779)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/811) // Fixes [#779](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/779)
 - QueryParams are getting lost when doing a silent renew
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/812) // Fixes [#795](https://github.com/damienbod/angular-auth-oidc-client/issues/795)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/812) // Fixes [#795](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/795)
 - Token endpoint errors not reported correctly
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/813) // Fixes [#805](https://github.com/damienbod/angular-auth-oidc-client/issues/805)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/813) // Fixes [#805](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/805)
 
 ### 2020-06-04 Version 11.1.3
 
 - Refresh checksession iframe regularly
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/761) // Fixes [#756](https://github.com/damienbod/angular-auth-oidc-client/issues/756)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/761) // Fixes [#756](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/756)
 - Load checksession iframe right after checkSessionService.start() is invoked
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/766) // fixes [#750](https://github.com/damienbod/angular-auth-oidc-client/issues/750)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/766) // fixes [#750](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/750)
 - Not throwing an exception if interceptor is set and config is loaded from http
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/774) // fixes [#772](https://github.com/damienbod/angular-auth-oidc-client/issues/772)
-- Bug fix: forceRefreshSession prematurely completes its observable [#767](https://github.com/damienbod/angular-auth-oidc-client/issues/767)
-- Bug fix: Returns tokens but doesn't apply them [#759](https://github.com/damienbod/angular-auth-oidc-client/issues/759)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/774) // fixes [#772](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/772)
+- Bug fix: forceRefreshSession prematurely completes its observable [#767](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/767)
+- Bug fix: Returns tokens but doesn't apply them [#759](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/759)
 
 ### 2020-05-24 Version 11.1.2
 
 - Added support to check the STS for an authenticated session if not locally logged in (iframe silent renew)
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/752) // Fixes [#744](https://github.com/damienbod/angular-auth-oidc-client/issues/744)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/752) // Fixes [#744](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/744)
 - fix config bug with eager loading of the well known endpoints
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/748)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/748)
 - prevent routing in silent renew requests with iframes
 - return tokens direct in forceRefreshSession
 
 ### 2020-05-16 Version 11.1.1
 
 - Added validation for the lib configuration
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/731) // Fixes [#725](https://github.com/damienbod/angular-auth-oidc-client/issues/725)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/731) // Fixes [#725](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/725)
 - fixed some doc typos
 - fixed bug 2 auth events emitter on STS callback
-  - Fixes [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/731) // [#734](https://github.com/damienbod/angular-auth-oidc-client/issues/734)
+  - Fixes [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/731) // [#734](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/734)
 
 ### 2020-05-14 Version 11.1.0
 
 - Eager loading of well known endpoints can be configured: Made it possible to load the well known endpoints late (per configuration)
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/724) // [Docs](https://github.com/damienbod/angular-auth-oidc-client/blob/master/docs/features.md#delay-the-loading-or-pass-an-existing-well-knownopenid-configuration-configuration) // Fixes [#717](https://github.com/damienbod/angular-auth-oidc-client/issues/717)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/724) // [Docs](https://github.com/tomattia92/angular-auth-oidc-client-t4u/blob/master/docs/features.md#delay-the-loading-or-pass-an-existing-well-knownopenid-configuration-configuration) // Fixes [#717](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/717)
 - make it possible to force a session refresh
-  - [PR](https://github.com/damienbod/angular-auth-oidc-client/pull/730) // Fixes [#729](https://github.com/damienbod/angular-auth-oidc-client/issues/729)
+  - [PR](https://github.com/tomattia92/angular-auth-oidc-client-t4u/pull/730) // Fixes [#729](https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues/729)
 
 ### 2020-05-12 Version 11.0.2
 
@@ -418,7 +417,7 @@ import {
     ConfigResult,
     OidcConfigService,
     OpenIdConfiguration
-} from 'angular-auth-oidc-client';
+} from 'angular-auth-oidc-client-t4u';
 
 export function loadConfig(oidcConfigService: OidcConfigService) {
     console.log('APP_INITIALIZER STARTING');
