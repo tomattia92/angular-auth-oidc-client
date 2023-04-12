@@ -41,7 +41,15 @@ export class LogoffRevocationService {
     } else if (urlHandler) {
       urlHandler(endSessionUrl);
     } else {
-      this.redirectService.redirectTo(endSessionUrl);
+      // TODO: HERE
+      //this.redirectService.redirectTo(endSessionUrl);
+      this.dataService.get(endSessionUrl).subscribe(
+        (result)=> {
+          console.log(result);
+        },
+        (error) => {
+          console.log('error', error);
+        });
     }
   }
 

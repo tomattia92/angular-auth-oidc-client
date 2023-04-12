@@ -124,6 +124,17 @@ export class UserService {
       this.loggerService.logError(
         'init check session: authWellKnownEndpoints.userinfo_endpoint is undefined; set auto_userinfo = false in config'
       );
+      // TODO: HERE
+        // Bisogna modificare il path e far intervenire proxy
+        if(window.location.href.includes('localhost')) {
+
+          let myArray = userinfoEndpoint.split('/');
+          myArray.splice(0,3);
+          let pathModified = myArray.join('/');
+          console.log(myArray.join('/'));
+
+          return this.oidcDataService.get(pathModified, token).pipe(retry(2))
+        }
       return throwError('authWellKnownEndpoints.userinfo_endpoint is undefined');
     }
 
