@@ -1,5 +1,10 @@
 ## Angular Lib for OpenID Connect/OAuth2 Changelog
 
+
+### 2021-06-12 Version 11.6.12
+
+-  Modificata da Mattia Selvaggio
+
 ### 2021-06-12 Version 11.6.11
 
 - Silent renew does not always start
