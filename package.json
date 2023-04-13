@@ -3,10 +3,10 @@
   "author": "Mattia Selvaggio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomattia92/angular-auth-oidc-client-t4u.git"
+    "url": "https://github.com/tomattia92/angular-auth-oidc-client.git"
   },
   "bugs": {
-    "url": "https://github.com/tomattia92/angular-auth-oidc-client-t4u/issues"
+    "url": "https://github.com/tomattia92/angular-auth-oidc-client/issues"
   },
   "version": "11.6.11",
   "scripts": {
