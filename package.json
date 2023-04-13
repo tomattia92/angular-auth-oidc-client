@@ -46,7 +46,8 @@
     "schematics-copy": "npm run schematics-ngadd-copy && ncp projects/schematics/src/collection.json ./dist/angular-auth-oidc-client-t4u/schematics/collection.json",
     "schematics-ngadd-copy": "ncp projects/schematics/src/ng-add/files ./dist/angular-auth-oidc-client-t4u/schematics/ng-add/files && ncp projects/schematics/src/ng-add/schema.json ./dist/angular-auth-oidc-client-t4u/schematics/ng-add/schema.json",
     "schematics-build": "tsc -p projects/schematics/tsconfig.json",
-    "copy": "npm run copy-readme-to-lib-folder && npm run copy-licence-to-lib-folder && npm run schematics-copy"
+    "copy": "npm run copy-readme-to-lib-folder && npm run copy-licence-to-lib-folder && npm run schematics-copy",
+    "postinstall": "husky install"
   },
   "private": true,
   "dependencies": {
