@@ -44,12 +44,13 @@ export class LogoffRevocationService {
       // TODO: HERE
       //this.redirectService.redirectTo(endSessionUrl);
       this.dataService.get(endSessionUrl).subscribe(
-        (result)=> {
+        (result) => {
           console.log(result);
         },
         (error) => {
           console.log('error', error);
-        });
+        }
+      );
     }
   }
 
