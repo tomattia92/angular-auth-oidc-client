@@ -17,7 +17,7 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "target": "es6",
-    "outDir": "../../dist/angular-auth-oidc-client-t4u/schematics",
+    "outDir": "../../dist/angular-auth-oidc-client/schematics",
     "types": ["jasmine", "node"]
   },
   "include": ["src/**/*"],

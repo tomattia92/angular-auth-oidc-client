@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["projects/angular-auth-oidc-client-t4u/tsconfig.lib.json", "projects/angular-auth-oidc-client-t4u/tsconfig.spec.json"],
+        "project": ["projects/angular-auth-oidc-client/tsconfig.lib.json", "projects/angular-auth-oidc-client/tsconfig.spec.json"],
         "createDefaultProgram": true
       },
       "rules": {

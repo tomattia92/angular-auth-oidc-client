@@ -12,7 +12,7 @@
     "noUnusedParameters": false,
     "noUnusedLocals": true,
     "rootDir": "schematics",
-    "outDir": "../../dist/angular-auth-oidc-client-t4u/schematics",
+    "outDir": "../../dist/angular-auth-oidc-client/schematics",
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "sourceMap": true,

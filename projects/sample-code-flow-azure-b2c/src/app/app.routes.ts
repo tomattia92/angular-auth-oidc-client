@@ -1,5 +1,5 @@
 import { RouterModule, Routes } from '@angular/router';
-import { AutoLoginGuard } from 'angular-auth-oidc-client-t4u';
+import { AutoLoginGuard } from 'angular-auth-oidc-client';
 import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { HomeComponent } from './home/home.component';
 import { ProtectedComponent } from './protected/protected.component';

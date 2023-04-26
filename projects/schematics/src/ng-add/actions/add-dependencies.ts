@@ -3,7 +3,7 @@ import { addPackageJsonDependency, NodeDependency, NodeDependencyType } from '@s
 
 const dependenciesToAdd = [
   {
-    name: 'angular-auth-oidc-client-t4u',
+    name: 'angular-auth-oidc-client',
     version: '11.6.12',
   },
 ];

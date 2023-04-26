@@ -31,7 +31,7 @@ are supported.
 You can inject the service and use the events like this:
 
 ```typescript
-import { PublicEventsService } from 'angular-auth-oidc-client-t4u';
+import { PublicEventsService } from 'angular-auth-oidc-client';
 
 constructor(private eventService: PublicEventsService) {
     this.eventService
@@ -105,7 +105,7 @@ Here are two use cases to distinguish:
 If your redirect route from the Security Token Server to your app has the `AutoLoginGuard` activated already, like this:
 
 ```typescript
-import { AutoLoginGuard } from 'angular-auth-oidc-client-t4u';
+import { AutoLoginGuard } from 'angular-auth-oidc-client';
 
 const appRoutes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -121,7 +121,7 @@ Then _make sure_ to _*not*_ call the `checkAuth()` method in your `app.component
 If the redirect route from the STS is publicly available, you _have to_ call the `checkAuth()` by yourself in the `app.component.ts` to proceed the url when getting redirected. The lib redirects you to the route the user entered before he was sent to the login page on the sts automatically for you.
 
 ```typescript
-import { AutoLoginGuard } from 'angular-auth-oidc-client-t4u';
+import { AutoLoginGuard } from 'angular-auth-oidc-client';
 
 const appRoutes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -196,7 +196,7 @@ You can use the `APP_INITIALIZER` also in child modules with the same syntax.
 
 ```typescript
 import { NgModule, APP_INITIALIZER } from '@angular/core';
-import { AuthModule, OidcConfigService, LogLevel } from 'angular-auth-oidc-client-t4u';
+import { AuthModule, OidcConfigService, LogLevel } from 'angular-auth-oidc-client';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';

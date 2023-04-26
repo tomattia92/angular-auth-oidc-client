@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { EventTypes, PublicEventsService } from 'angular-auth-oidc-client-t4u';
+import { EventTypes, PublicEventsService } from 'angular-auth-oidc-client';
 import { filter } from 'rxjs/operators';
 import { AppComponent } from './app.component';
 import { AuthConfigModule } from './auth-config.module';

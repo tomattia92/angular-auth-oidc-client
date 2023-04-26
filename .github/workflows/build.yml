@@ -1,4 +1,4 @@
-name: angular-auth-oidc-client-t4u-build
+name: angular-auth-oidc-client-build
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: './coverage/angular-auth-oidc-client-t4u/lcov.info'
+          path-to-lcov: './coverage/angular-auth-oidc-client/lcov.info'
 
       - name: Coveralls Finished
         uses: coverallsapp/github-action@master
@@ -59,7 +59,7 @@ jobs:
           cd testProject
           echo '=== Current Directory ==='
           ls
-          sudo npm install ../angular-auth-oidc-client-t4u/dist/angular-auth-oidc-client-t4u
+          sudo npm install ../angular-auth-oidc-client/dist/angular-auth-oidc-client
           npm test -- --watch=false --browsers=ChromeHeadless
           sudo npm run build -- --prod
 
@@ -74,6 +74,6 @@ jobs:
           cd testProjectSchematic
           echo '=== Current Directory ==='
           ls
-          sudo ng add ../angular-auth-oidc-client-t4u/dist/angular-auth-oidc-client-t4u --stsUrlOrTenantId "my-sts-url" --flowType "OIDC Code Flow PKCE using iframe silent renew"
+          sudo ng add ../angular-auth-oidc-client/dist/angular-auth-oidc-client --stsUrlOrTenantId "my-sts-url" --flowType "OIDC Code Flow PKCE using iframe silent renew"
           npm test -- --watch=false --browsers=ChromeHeadless
           sudo npm run build -- --prod

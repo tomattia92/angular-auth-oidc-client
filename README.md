@@ -1,6 +1,6 @@
 # Angular Lib for OpenID Connect & OAuth2
 
-![Build Status](https://github.com/tomattia92/angular-auth-oidc-client-t4u/workflows/angular-auth-oidc-client-t4u-build/badge.svg?branch=main) [![npm](https://img.shields.io/npm/v/angular-auth-oidc-client-t4u.svg)](https://www.npmjs.com/package/angular-auth-oidc-client-t4u) [![npm](https://img.shields.io/npm/dm/angular-auth-oidc-client-t4u.svg)](https://www.npmjs.com/package/angular-auth-oidc-client-t4u) [![npm](https://img.shields.io/npm/l/angular-auth-oidc-client-t4u.svg)](https://www.npmjs.com/package/angular-auth-oidc-client-t4u) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Coverage Status](https://coveralls.io/repos/github/damienbod/angular-auth-oidc-client-t4u/badge.svg?branch=main)](https://coveralls.io/github/damienbod/angular-auth-oidc-client-t4u?branch=main)
+![Build Status](https://github.com/tomattia92/angular-auth-oidc-client/workflows/angular-auth-oidc-client-build/badge.svg?branch=main) [![npm](https://img.shields.io/npm/v/angular-auth-oidc-client.svg)](https://www.npmjs.com/package/angular-auth-oidc-client) [![npm](https://img.shields.io/npm/dm/angular-auth-oidc-client.svg)](https://www.npmjs.com/package/angular-auth-oidc-client) [![npm](https://img.shields.io/npm/l/angular-auth-oidc-client.svg)](https://www.npmjs.com/package/angular-auth-oidc-client) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Coverage Status](https://coveralls.io/repos/github/damienbod/angular-auth-oidc-client/badge.svg?branch=main)](https://coveralls.io/github/damienbod/angular-auth-oidc-client?branch=main)
 
 > OpenID Code Flow with PKCE, Code Flow with refresh tokens, OpenID Connect Implicit Flow
 
@@ -37,69 +37,69 @@ This library is <a href="http://openid.net/certification/#RPs">certified</a> by 
 You can use the schematics and `ng add` the library.
 
 ```
-ng add angular-auth-oidc-client-t4u
+ng add angular-auth-oidc-client
 ```
 
 And answer the questions. A module will be created which encapsulates your configuration.
 
-![angular-auth-oidc-client-t4u schematics](./.github/angular-auth-oidc-client-t4u-schematics-720.gif)
+![angular-auth-oidc-client schematics](./.github/angular-auth-oidc-client-schematics-720.gif)
 
 ### Npm / Yarn
 
 Navigate to the level of your `package.json` and type
 
 ```typescript
- npm install angular-auth-oidc-client-t4u
+ npm install angular-auth-oidc-client
 ```
 
 or with yarn
 
 ```typescript
- yarn add angular-auth-oidc-client-t4u
+ yarn add angular-auth-oidc-client
 ```
 
 ## Documentation
 
-- [Quickstart](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/quickstart.md)
-- [Samples](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md)
+- [Quickstart](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/quickstart.md)
+- [Samples](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md)
 
-  - [Code Flow with PKCE Using a configuration from an http source and silent renew](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-with-pkce-using-a-configuration-from-an-http-source-and-silent-renew)
-  - [Code Flow PKCE with Refresh tokens](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-pkce-with-refresh-tokens)
-  - [Code Flow PKCE Auto login](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-pkce-auto-login)
-  - [Code Flow with PKCE basic with silent renew](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-with-pkce-basic-with-silent-renew)
-  - [Code flow with popup](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#popup-code-flow-with-pkce)
-  - [Code flow with pushed authorization request](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-with-pushed-authorization-request)
-  - [Azure B2C Code Flow PKCE with silent renew](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#azure-b2c-code-flow-pkce-with-silent-renew)
-  - [Azure AD Code Flow PKCE with silent renew](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#azure-ad-oidc-code-flow-with-pkce)
-  - [Implicit Flow with silent renew (Not recommended)](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#implicit-flow-with-silent-renew-not-recommended)
-  - [Implicit Flow google (Not recommended)](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#implicit-flow-google-not-recommended)
-  - [Code flow with a lazy loaded module](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/samples.md#code-flow-with-a-lazy-loaded-module)
+  - [Code Flow with PKCE Using a configuration from an http source and silent renew](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-with-pkce-using-a-configuration-from-an-http-source-and-silent-renew)
+  - [Code Flow PKCE with Refresh tokens](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-pkce-with-refresh-tokens)
+  - [Code Flow PKCE Auto login](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-pkce-auto-login)
+  - [Code Flow with PKCE basic with silent renew](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-with-pkce-basic-with-silent-renew)
+  - [Code flow with popup](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#popup-code-flow-with-pkce)
+  - [Code flow with pushed authorization request](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-with-pushed-authorization-request)
+  - [Azure B2C Code Flow PKCE with silent renew](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#azure-b2c-code-flow-pkce-with-silent-renew)
+  - [Azure AD Code Flow PKCE with silent renew](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#azure-ad-oidc-code-flow-with-pkce)
+  - [Implicit Flow with silent renew (Not recommended)](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#implicit-flow-with-silent-renew-not-recommended)
+  - [Implicit Flow google (Not recommended)](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#implicit-flow-google-not-recommended)
+  - [Code flow with a lazy loaded module](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/samples.md#code-flow-with-a-lazy-loaded-module)
 
-- [Silent renew](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/silent-renew.md)
+- [Silent renew](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/silent-renew.md)
 
-  - [Silent Renew Code Flow with PKCE](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/silent-renew.md#silent-renew-code-flow-with-pkce)
-  - [Silent Renew Code Flow with PKCE with refresh tokens](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/silent-renew.md#silent-renew-code-flow-with-pkce-with-refresh-tokens)
-  - [Silent Renew Implicit Flow](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/silent-renew.md#silent-renew-implicit-flow)
-  - [Secure Token Server CSP and CORS](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/silent-renew.md#secure-token-server-csp-and-cors)
+  - [Silent Renew Code Flow with PKCE](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/silent-renew.md#silent-renew-code-flow-with-pkce)
+  - [Silent Renew Code Flow with PKCE with refresh tokens](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/silent-renew.md#silent-renew-code-flow-with-pkce-with-refresh-tokens)
+  - [Silent Renew Implicit Flow](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/silent-renew.md#silent-renew-implicit-flow)
+  - [Secure Token Server CSP and CORS](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/silent-renew.md#secure-token-server-csp-and-cors)
 
-- [Guards](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/guards.md)
-- [Features](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md)
+- [Guards](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/guards.md)
+- [Features](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md)
 
-  - [Public Events](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#public-events)
-  - [Auth with a popup](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/authorizing-popup.md)
-  - [Custom Storage](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#custom-storage)
-  - [Custom parameters](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#custom-parameters)
-  - [Auto Login](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#auto-login)
-  - [Using the OIDC package in a module or a Angular lib](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#using-the-oidc-package-in-a-module-or-a-angular-lib)
-  - [Delay the loading or pass an existing AuthWellKnownEndpoints config](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/features.md#delay-the-loading-or-pass-an-existing-well-knownopenid-configuration-configuration)
+  - [Public Events](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#public-events)
+  - [Auth with a popup](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/authorizing-popup.md)
+  - [Custom Storage](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#custom-storage)
+  - [Custom parameters](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#custom-parameters)
+  - [Auto Login](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#auto-login)
+  - [Using the OIDC package in a module or a Angular lib](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#using-the-oidc-package-in-a-module-or-a-angular-lib)
+  - [Delay the loading or pass an existing AuthWellKnownEndpoints config](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/features.md#delay-the-loading-or-pass-an-existing-well-knownopenid-configuration-configuration)
 
-- [Logout](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/logout.md)
-- [Using and revoking the access token](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/using-access-tokens.md)
-- [CSP & CORS](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/csp-cors-config.md)
-- [Public API](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/public-api.md)
-- [Configuration](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/configuration.md)
-- [Migration](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/docs/migration.md)
-- [Changelog](https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/main/CHANGELOG.md)
+- [Logout](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/logout.md)
+- [Using and revoking the access token](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/using-access-tokens.md)
+- [CSP & CORS](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/csp-cors-config.md)
+- [Public API](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/public-api.md)
+- [Configuration](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/configuration.md)
+- [Migration](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/docs/migration.md)
+- [Changelog](https://github.com/tomattia92/angular-auth-oidc-client/tree/main/CHANGELOG.md)
 
 ## Quickstart
 
@@ -112,7 +112,7 @@ If the schematics did not do this already: Import the module and services in you
 ```typescript
 import { HttpClientModule } from '@angular/common/http';
 import { APP_INITIALIZER, NgModule } from '@angular/core';
-import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client-t4u';
+import { AuthModule, LogLevel, OidcConfigService } from 'angular-auth-oidc-client';
 // ...
 
 export function configureAuth(oidcConfigService: OidcConfigService) {
@@ -154,7 +154,7 @@ And call the method `checkAuth()` from your `app.component.ts`. The method `chec
 
 ```typescript
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { OidcClientNotification, OidcSecurityService, PublicConfiguration } from 'angular-auth-oidc-client-t4u';
+import { OidcClientNotification, OidcSecurityService, PublicConfiguration } from 'angular-auth-oidc-client';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -207,4 +207,4 @@ MIT
 
 if you need information about version 10 please search here
 
-https://github.com/tomattia92/angular-auth-oidc-client-t4u/tree/version-10
+https://github.com/tomattia92/angular-auth-oidc-client/tree/version-10

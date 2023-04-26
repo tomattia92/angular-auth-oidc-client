@@ -45,7 +45,7 @@ export function configureAuth(oidcConfigService: OidcConfigService) {
 and use the interceptor the lib provides you
 
 ```typescript
-import { AuthInterceptor /*, ... */ } from 'angular-auth-oidc-client-t4u';
+import { AuthInterceptor /*, ... */ } from 'angular-auth-oidc-client';
 
 @NgModule({
     declarations: [...],
