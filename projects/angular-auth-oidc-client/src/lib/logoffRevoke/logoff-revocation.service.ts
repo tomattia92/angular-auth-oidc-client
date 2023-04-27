@@ -8,7 +8,6 @@ import { ResetAuthDataService } from '../flows/reset-auth-data.service';
 import { CheckSessionService } from '../iframe/check-session.service';
 import { LoggerService } from '../logging/logger.service';
 import { StoragePersistenceService } from '../storage/storage-persistence.service';
-import { RedirectService } from '../utils/redirect/redirect.service';
 import { UrlService } from '../utils/url/url.service';
 
 @Injectable()
@@ -20,7 +19,8 @@ export class LogoffRevocationService {
     private urlService: UrlService,
     private checkSessionService: CheckSessionService,
     private resetAuthDataService: ResetAuthDataService,
-    private redirectService: RedirectService,
+    // TODO: HERE
+    //private redirectService: RedirectService,
     private configurationProvider: ConfigurationProvider
   ) {}
 
