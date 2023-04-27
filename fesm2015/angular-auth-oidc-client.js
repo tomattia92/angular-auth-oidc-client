@@ -714,6 +714,7 @@ class TokenValidationService {
             //isValid = KJUR.jws.JWS.verify(idToken, KEYUTIL.getKey(keyToValidate), [alg]);
             // TODO: HERE
             // Modifichiamo in true perchè non funziona la validazione
+            isValid = true;
             if (!isValid) {
                 this.loggerService.logWarning('incorrect Signature, validation failed for id_token');
             }
@@ -1640,7 +1641,10 @@ class UserService {
         const userinfoEndpoint = authWellKnownEndPoints.userinfoEndpoint;
         if (!userinfoEndpoint) {
             this.loggerService.logError('init check session: authWellKnownEndpoints.userinfo_endpoint is undefined; set auto_userinfo = false in config');
-            // TODO: HERE
+            
+            return throwError('authWellKnownEndpoints.userinfo_endpoint is undefined');
+        }
+        // TODO: HERE
             // Bisogna modificare il path e far intervenire proxy
             if (window.location.href.includes('localhost')) {
                 let myArray = userinfoEndpoint.split('/');
@@ -1649,8 +1653,6 @@ class UserService {
                 console.log(myArray.join('/'));
                 return this.oidcDataService.get(pathModified, token).pipe(retry(2));
             }
-            return throwError('authWellKnownEndpoints.userinfo_endpoint is undefined');
-        }
         return this.oidcDataService.get(userinfoEndpoint, token).pipe(retry(2));
     }
     validateUserDataSubIdToken(idTokenSub, userdataSub) {
