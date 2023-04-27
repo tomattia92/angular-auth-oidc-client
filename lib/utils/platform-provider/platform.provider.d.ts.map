@@ -1,0 +1,1 @@
+{"version":3,"file":"platform.provider.d.ts","sourceRoot":"../../../projects/angular-auth-oidc-client/src/","sources":["lib/utils/platform-provider/platform.provider.ts"],"names":[],"mappings":";AAGA,qBACa,gBAAgB;IAKM,OAAO,CAAC,UAAU;IAJnD,IAAI,SAAS,YAEZ;gBAEwC,UAAU,EAAE,MAAM;iCALhD,gBAAgB;qCAAhB,gBAAgB;CAM5B"}

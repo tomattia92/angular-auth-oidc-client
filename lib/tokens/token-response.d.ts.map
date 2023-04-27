@@ -1,0 +1,1 @@
+{"version":3,"file":"token-response.d.ts","sourceRoot":"../../../projects/angular-auth-oidc-client/src/","sources":["lib/tokens/token-response.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC5B,OAAO,EAAE,MAAM,CAAC;IAChB,WAAW,EAAE,MAAM,CAAC;CACrB"}

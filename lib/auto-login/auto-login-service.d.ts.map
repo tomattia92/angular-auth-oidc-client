@@ -1,0 +1,1 @@
+{"version":3,"file":"auto-login-service.d.ts","sourceRoot":"../../../projects/angular-auth-oidc-client/src/","sources":["lib/auto-login/auto-login-service.ts"],"names":[],"mappings":";AAIA,qBACa,gBAAgB;IAC3B;;OAEG;IACH,sBAAsB,IAAI,MAAM;IAIhC;;;;OAIG;IACH,uBAAuB,CAAC,GAAG,EAAE,MAAM,GAAG,IAAI;IAI1C;;OAEG;IACH,yBAAyB,IAAI,IAAI;iCApBtB,gBAAgB;qCAAhB,gBAAgB;CAuB5B"}

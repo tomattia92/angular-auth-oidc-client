@@ -1,0 +1,8 @@
+/* eslint-disable no-shadow */
+export var AuthorizedState;
+(function (AuthorizedState) {
+    AuthorizedState["Authorized"] = "Authorized";
+    AuthorizedState["Unauthorized"] = "Unauthorized";
+    AuthorizedState["Unknown"] = "Unknown";
+})(AuthorizedState || (AuthorizedState = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXV0aG9yaXplZC1zdGF0ZS5qcyIsInNvdXJjZVJvb3QiOiIuLi8uLi8uLi9wcm9qZWN0cy9hbmd1bGFyLWF1dGgtb2lkYy1jbGllbnQvc3JjLyIsInNvdXJjZXMiOlsibGliL2F1dGhTdGF0ZS9hdXRob3JpemVkLXN0YXRlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhCQUE4QjtBQUM5QixNQUFNLENBQU4sSUFBWSxlQUlYO0FBSkQsV0FBWSxlQUFlO0lBQ3pCLDRDQUF5QixDQUFBO0lBQ3pCLGdEQUE2QixDQUFBO0lBQzdCLHNDQUFtQixDQUFBO0FBQ3JCLENBQUMsRUFKVyxlQUFlLEtBQWYsZUFBZSxRQUkxQiIsInNvdXJjZXNDb250ZW50IjpbIi8qIGVzbGludC1kaXNhYmxlIG5vLXNoYWRvdyAqL1xuZXhwb3J0IGVudW0gQXV0aG9yaXplZFN0YXRlIHtcbiAgQXV0aG9yaXplZCA9ICdBdXRob3JpemVkJyxcbiAgVW5hdXRob3JpemVkID0gJ1VuYXV0aG9yaXplZCcsXG4gIFVua25vd24gPSAnVW5rbm93bicsXG59XG4iXX0=

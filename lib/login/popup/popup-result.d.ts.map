@@ -1,0 +1,1 @@
+{"version":3,"file":"popup-result.d.ts","sourceRoot":"../../../projects/angular-auth-oidc-client/src/","sources":["lib/login/popup/popup-result.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,qBAAqB;IACpC,UAAU,EAAE,IAAI,CAAC;CAClB;AAED,MAAM,WAAW,sBAAsB;IACrC,UAAU,EAAE,KAAK,CAAC;IAClB,WAAW,EAAE,MAAM,CAAC;CACrB;AAED,oBAAY,WAAW,GAAG,qBAAqB,GAAG,sBAAsB,CAAC"}

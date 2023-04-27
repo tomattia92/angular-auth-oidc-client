@@ -1,0 +1,1 @@
+{"version":3,"file":"login-response.d.ts","sourceRoot":"../../../projects/angular-auth-oidc-client/src/","sources":["lib/login/login-response.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC5B,eAAe,EAAE,OAAO,CAAC;IACzB,QAAQ,CAAC,EAAE,GAAG,CAAC;IACf,WAAW,CAAC,EAAE,MAAM,CAAC;IACrB,YAAY,CAAC,EAAE,MAAM,CAAC;CACvB"}
