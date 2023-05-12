@@ -153,6 +153,7 @@ class DataService {
     prepareHeaders(token) {
         let headers = new HttpHeaders();
         headers = headers.set('Accept', 'application/json');
+        headers = headers.set('Access-Control-Allow-Origin', '*');
         if (!!token) {
             headers = headers.set('Authorization', 'Bearer ' + decodeURIComponent(token));
         }
