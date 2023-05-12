@@ -163,6 +163,7 @@
         DataService.prototype.prepareHeaders = function (token) {
             var headers = new i1.HttpHeaders();
             headers = headers.set('Accept', 'application/json');
+            headers = headers.set('Access-Control-Allow-Origin', '*');
             if (!!token) {
                 headers = headers.set('Authorization', 'Bearer ' + decodeURIComponent(token));
             }
